@@ -1,0 +1,399 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:300i,400,400i,700|Roboto+Mono:300,400,500,700|Roboto+Slab:300,400,500,700|Roboto:300,400,500,700,900&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: 'Roboto';
+
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html body {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+html body {
+  font-size: 11px;
+  background: rgb(112, 2, 2);
+  height: 100vh;
+}
+
+
+/*** YOUR CSS STYLES GOES HERE ***/
+
+nav{
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: white;
+}
+
+nav a{
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover{
+  color: pink;
+}
+
+.list{
+  display: flex;
+  list-style: none;
+  gap: 25px;
+
+}
+
+#toggler, label{
+  display: none;
+}
+
+.facebook{
+  width: 20px;
+}
+
+.twitter{
+  width: 20px;
+}
+
+.youtube{
+  width: 20px;
+}
+
+.linkedin{
+  width: 20px;
+}
+
+.instagram{
+  width: 20px;
+}
+
+
+/*hero*/
+
+.hero-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: url(/img/hero_image_one.jpg);
+  position: relative;
+  align-items: center;
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  max-width: 100%;
+  justify-content: space-evenly;
+}
+
+
+
+.hero-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-self: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(15, 15, 15);
+  height: 20vh;
+  width: 300px;
+  opacity: 0.8;
+  color: white;
+  line-height: 30px;
+}
+
+.hero-box{
+  border: 1px solid white;
+  padding: 20px;
+}
+
+.arrow{
+  background: rgb(240, 68, 97);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  align-items: end;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  display: flex;
+}
+
+/*opportunties section*/
+.opportunities {
+  background-color: rgb(2, 83, 61);
+}
+
+.opportunities-container{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+  max-width: 100%;
+  font-size: 15px;
+}
+
+.box-title{
+  padding: 20px;
+}
+
+.box-1{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  /* height: 70px; */
+  align-content: end;
+  color: black;
+  
+}
+
+.box1-apply{
+  background-color: rgb(240, 68, 97);
+  width: auto;
+  height: 50px;
+  justify-content: flex-end;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  
+}
+
+.box1-apply:hover{
+  background-color: rgb(112, 2, 2);
+}
+
+.box-2{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  /* height: 70px; */
+  align-content: end;
+  color: black;
+}
+
+.box2-apply{
+  background-color: rgb(240, 68, 97);
+  width: auto;
+  height: 50px;
+  justify-content: flex-end;
+  align-content: center;
+  text-align: center;
+  text-align: center;
+  color: white;
+ 
+}
+
+.box2-apply:hover{
+  background-color: rgb(112, 2, 2);
+}
+
+.box-3{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  /* height: 70px; */
+  align-content: end;
+  color: black;
+}
+
+.box3-apply{
+  background-color: rgb(240, 68, 97);
+  width: auto;
+  height: 50px;
+  justify-content: flex-end;
+  align-content: center;
+  text-align: center;
+  text-align: center;
+  color: white;
+  
+}
+
+.box3-apply:hover{
+  background-color: rgb(112, 2, 2);
+}
+
+/*welcolme section*/
+.welcolme-container{
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.welcolme-text{
+  /* flex: 1; */
+  padding-bottom: 20px;
+}
+
+/* .welcolme-img-content{
+  flex: 1;
+} */
+
+img.welcolme-image {
+  max-width: 100%;
+}
+
+.welcolme-word{
+  color: black;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.welcolme-word span{
+text-decoration: underline green 2px;
+}
+
+/*map and location section*/
+.location-container{
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+}
+
+.location-word{
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.location-word span{
+  text-decoration: underline rgb(240, 68, 97) 2px;
+  }
+
+iframe {
+  max-width: -webkit-fill-available;
+  padding-bottom: 20px;
+}
+
+.map-text{
+  color: white;
+  justify-content: center;
+}
+
+.opportunities-container-map{
+  margin-top: 20px;
+  justify-content: center;
+  width: fit-content;
+}
+
+.opportunities-container-map:hover{
+  background: pink;
+}
+
+/*footer section*/
+.footer{
+  height: 20vh;
+  background: white;
+  padding: 10px 20px;
+  align-items: center;
+  display: flex;
+}
+
+.hays-img{
+  max-width: 100%;
+}
+
+
+@media screen and (min-width: 320px) {
+  html body {
+    font-size: calc(11px + 5 * ((100vw - 320px) / 880));
+  }
+}
+
+@media screen and (max-width:650px){
+  .menu{
+    width: 100%;
+    max-height: 0;
+    overflow: hidden;
+  }
+
+  label{
+    display: inline-flex;
+  }
+
+  label {
+    font-size: large;
+}
+  
+  #toggler:checked~.menu{
+    max-height: 100%;
+  }
+
+  .list{
+    flex-direction: column;
+    align-items: center;
+    padding: 30px ;
+    font-size: 15px;
+    border-bottom: 1px solid white;
+  }
+
+  .opportunities-container{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .welcolme-container{
+    flex-direction: column;
+  }
+
+  .location-container{
+    flex-direction: column;
+  }
+
+@media screen and (min-width: 1200px) {
+  html body {
+    font-size: 16px;
+  }
+}
+
+
+}
